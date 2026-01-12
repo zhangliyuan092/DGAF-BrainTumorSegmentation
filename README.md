@@ -35,7 +35,9 @@ See: docs/dataset_preparation.md
 ### 3.1 nnU-Net Environment Variables
 Set nnU-Net paths:
 export nnUNet_raw="/path/to/nnUNet_raw"
+
 export nnUNet_preprocessed="/path/to/nnUNet_preprocessed"
+
 export nnUNet_results="/path/to/nnUNet_results"
 
 ## 4. Training (5-fold Cross Validation)
@@ -45,9 +47,13 @@ export nnUNet_results="/path/to/nnUNet_results"
 
 Train 5 folds:
 nnUNetv2_train <DATASET_ID> <CONFIG> 0 -tr <TRAINER>
+
 nnUNetv2_train <DATASET_ID> <CONFIG> 1 -tr <TRAINER>
+
 nnUNetv2_train <DATASET_ID> <CONFIG> 2 -tr <TRAINER>
+
 nnUNetv2_train <DATASET_ID> <CONFIG> 3 -tr <TRAINER>
+
 nnUNetv2_train <DATASET_ID> <CONFIG> 4 -tr <TRAINER>
 
 ## 5. Inference
