@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "DGAF-BrainTumorSegmentation"
+message: "If you use this software, please cite the associated manuscript submitted to The Visual Computer."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Liyuan
+  - family-names: Ma
+    given-names: Xiaoxuan
+license: MIT
+repository-code: "https://github.com/zhangliyuan092/DGAF-BrainTumorSegmentation"
