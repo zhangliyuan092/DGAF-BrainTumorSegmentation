@@ -46,6 +46,7 @@ export nnUNet_results="/path/to/nnUNet_results"
 <TRAINER>: DIMNetTrainer_DGAF
 
 Train 5 folds:
+
 nnUNetv2_train <DATASET_ID> <CONFIG> 0 -tr <TRAINER>
 
 nnUNetv2_train <DATASET_ID> <CONFIG> 1 -tr <TRAINER>
@@ -58,10 +59,12 @@ nnUNetv2_train <DATASET_ID> <CONFIG> 4 -tr <TRAINER>
 
 ## 5. Inference
 nnUNetv2_predict -d <DATASET_ID> -c <CONFIG> -f 0 -tr <TRAINER> -i <INPUT_FOLDER> -o <OUTPUT_FOLDER>
+
 See details: docs/inference.md
 
 ## 6. Evaluation
 nnU-Net provides built-in evaluation utilities and JSON summaries.
+
 See: docs/evaluation.md
 
 ## 7. Reproducibility Notes
