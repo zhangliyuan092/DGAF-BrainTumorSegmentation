@@ -1,0 +1,13 @@
+numpy
+scipy
+tqdm
+nibabel
+SimpleITK
+matplotlib
+pandas
+scikit-image
+scikit-learn
+opencv-python
+yacs
+einops
+tensorboard
