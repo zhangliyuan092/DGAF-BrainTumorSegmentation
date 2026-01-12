@@ -41,6 +41,7 @@ export nnUNet_preprocessed="/path/to/nnUNet_preprocessed"
 export nnUNet_results="/path/to/nnUNet_results"
 
 ## 4. Training (5-fold Cross Validation)
+
 <DATASET_ID>: nnU-Net dataset id (e.g., 137/042)
 
 <CONFIG>: 3d_fullres
