@@ -1,4 +1,4 @@
-## Option A: Conda (recommended)
+## Conda (recommended)
 
 conda env create -f environment.yml
 conda activate dgaf
