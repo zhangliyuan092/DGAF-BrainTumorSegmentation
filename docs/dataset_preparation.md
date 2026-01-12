@@ -1,3 +1,5 @@
+### docs/dataset_preparation.md
+```markdown
 # Dataset Preparation (BraTS2018 & BraTS2021)
 
 ## 1) Download
@@ -11,4 +13,5 @@ Follow nnU-Net v2 dataset format:
 - nnUNet_raw/DatasetXXX_YourName/dataset.json
 
 ## 3) Plan & preprocess
+```bash
 nnUNetv2_plan_and_preprocess -d <DATASET_ID> --verify_dataset_integrity
