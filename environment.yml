@@ -1,0 +1,13 @@
+name: dgaf
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - nnunetv2
+      - -r requirements.txt
