@@ -1,6 +1,6 @@
 ### docs/dataset_preparation.md
 ```markdown
-# Dataset Preparation (BraTS2018 & BraTS2021)
+Dataset Preparation (BraTS2018 & BraTS2021)
 
 ## 1) Download
 BraTS datasets are available via the official BraTS platforms under their respective agreements.
