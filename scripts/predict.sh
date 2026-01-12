@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e
+
+DATASET_ID=<DATASET_ID>
+CONFIG=3d_fullres
+TRAINER=<TRAINER>
+FOLD=0
+
+INPUT_FOLDER=<INPUT_FOLDER>
+OUTPUT_FOLDER=<OUTPUT_FOLDER>
+
+nnUNetv2_predict -d ${DATASET_ID} -c ${CONFIG} -f ${FOLD} -tr ${TRAINER} -i ${INPUT_FOLDER} -o ${OUTPUT_FOLDER}
