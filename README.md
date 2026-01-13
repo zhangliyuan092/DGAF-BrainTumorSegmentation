@@ -61,6 +61,7 @@ nnUNetv2_train <DATASET_ID> <CONFIG> 3 -tr <TRAINER>
 
 nnUNetv2_train <DATASET_ID> <CONFIG> 4 -tr <TRAINER>
 
+
 ## 5. Inference
 nnUNetv2_predict -d <DATASET_ID> -c <CONFIG> -f 0 -tr <TRAINER> -i <INPUT_FOLDER> -o <OUTPUT_FOLDER>
 
