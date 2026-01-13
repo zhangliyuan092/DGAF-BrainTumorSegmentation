@@ -34,6 +34,7 @@ See: docs/dataset_preparation.md
 
 ### 3.1 nnU-Net Environment Variables
 Set nnU-Net paths:
+
 export nnUNet_raw="/path/to/nnUNet_raw"
 
 export nnUNet_preprocessed="/path/to/nnUNet_preprocessed"
