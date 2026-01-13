@@ -43,24 +43,19 @@ export nnUNet_results="/path/to/nnUNet_results"
 
 ## 4. Training (5-fold Cross Validation)
 
-<DATASET_ID>: nnU-Net dataset id (e.g., 137，042)
+<DATASET_ID>: nnU-Net dataset id (e.g., 137)
 
-<CONFIG>: 3d_fullres
+<CONFIG>: usually 3d_fullres
 
-<TRAINER>: DIMNetTrainer_DGAF
+<TRAINER>: your DGAF trainer class name (e.g., DIMNetTrainer_DGAF)
 
 Train 5 folds:
 
 nnUNetv2_train <DATASET_ID> <CONFIG> 0 -tr <TRAINER>
-
 nnUNetv2_train <DATASET_ID> <CONFIG> 1 -tr <TRAINER>
-
 nnUNetv2_train <DATASET_ID> <CONFIG> 2 -tr <TRAINER>
-
 nnUNetv2_train <DATASET_ID> <CONFIG> 3 -tr <TRAINER>
-
 nnUNetv2_train <DATASET_ID> <CONFIG> 4 -tr <TRAINER>
-
 
 ## 5. Inference
 nnUNetv2_predict -d <DATASET_ID> -c <CONFIG> -f 0 -tr <TRAINER> -i <INPUT_FOLDER> -o <OUTPUT_FOLDER>
