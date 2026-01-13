@@ -58,7 +58,7 @@ nnUNetv2_train <DATASET_ID> 3d_fullres 3 -tr DIMNetTrainer_DGAF
 nnUNetv2_train <DATASET_ID> 3d_fullres 4 -tr DIMNetTrainer_DGAF
 
 ## 5. Inference
-nnUNetv2_predict -d <DATASET_ID> -c <CONFIG> -f 0 -tr <TRAINER> -i <INPUT_FOLDER> -o <OUTPUT_FOLDER>
+nnUNetv2_predict -d <DATASET_ID> -c 3d_fullres -f 0 -tr DIMNetTrainer_DGAF -i <INPUT_FOLDER> -o <OUTPUT_FOLDER>
 
 See details: docs/inference.md
 
