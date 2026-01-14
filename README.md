@@ -77,7 +77,7 @@ random seeds (if used)
 
 ## 8. Code & DOI
 GitHub: this repository
-Zenodo DOI (archived release): TBD (will be added after the first GitHub Release is created)
+Zenodo DOI (archived release): 10.5281/zenodo.18231548
 
 ## 9. Citation
 If you find this project useful, please cite our manuscript submitted to The Visual Computer (update will be provided upon publication).
